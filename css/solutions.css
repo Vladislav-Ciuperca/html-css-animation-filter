@@ -67,7 +67,6 @@
 .ex-10-icon:hover{
     animation: spin 1s linear infinite;
 }
-
 @keyframes spin{
     0%{
         transform: rotate(1turn);
@@ -91,44 +90,35 @@
 /* es 12 */
 
 .ex-12-button:hover .ex-12-top-white{
-animation: movetop 2s linear infinite;
+    animation: movetop 2s linear infinite;
 }
 .ex-12-button:hover .ex-12-bottom-white{
     animation: movebottom 2s linear infinite;
     }
 @keyframes movetop{
     0%{
-        position: absolute;
         left: 10% ;  
     }
     50%{
-        position: absolute;
         left: calc(100% - 60px);  
     }
     100%{
-        position: absolute;
         left: 10%; 
     }
 }
 @keyframes movebottom {
     0%{
-        position: absolute;
         right: 20% ;  
     }
     50%{
-        position: absolute;
         right: calc(100% - 60px);  
     }
     100%{
-        position: absolute;
         right: 20%; 
     }
 }
 
 /* es 13 */
-.ex-13-bottom-white{
-    background-color: red;
-}
 .ex-13-button:hover .ex-13-top-white{
     animation: rotatetop 2s linear infinite;
     }
@@ -140,15 +130,15 @@ animation: movetop 2s linear infinite;
         left: 10% ; 
         top: -10px;
     }
-    25%{
+    15%{
         left: calc(100% - 30px);
         top: -10px;
     }
-    45%{
+    30%{
         left: calc(100% - 30px);
         top: 95%;
     }
-    65%{
+    75%{
         left: -10px;
         top: 95%;
     }
@@ -166,15 +156,15 @@ animation: movetop 2s linear infinite;
         bottom: -10px ; 
         right:20%;
     }
-    25%{
+    15%{
         bottom: -10px;
         right:calc(100% - 30px);
     }
-    45%{
+    30%{
         bottom: 95%;
         right:calc(100% - 30px);
     }
-    65%{
+    75%{
         bottom: 95%;
         right: -20px;
     }
